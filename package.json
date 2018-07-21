@@ -1,0 +1,28 @@
+{
+  "name": "ced",
+  "version": "0.0.0",
+  "description": "Detect the character encoding using Google’s compact_enc_det library",
+  "keywords": [
+    "character",
+    "charset",
+    "detect",
+    "detection",
+    "encoding",
+    "google"
+  ],
+  "repository": "sonicdoe/ced",
+  "author": "Jakob Krigovsky <jakob@krigovsky.com>",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.6",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
