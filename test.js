@@ -10,3 +10,9 @@ test('detects ASCII', t => {
   const buf = Buffer.from('tést', 'ascii')
   t.is(ced(buf), 'ASCII')
 })
+
+test('throws a TypeError if the argument is not a buffer', t => {
+  t.throws(() => {
+    ced('tést')
+  }, TypeError)
+})
