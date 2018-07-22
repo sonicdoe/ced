@@ -13,11 +13,13 @@
     ],
     "cflags_cc": [
       "-std=c++11",
+      "-w",
       "-Wno-narrowing"
     ],
     "xcode_settings": {
       "CLANG_CXX_LANGUAGE_STANDARD": "c++11",
       "OTHER_CFLAGS": [
+        "-w",
         "-Wno-c++11-narrowing"
       ]
     },
