@@ -1,5 +1,5 @@
 #define NAPI_VERSION 2
-#include <node_api.h>
+#include <node/node_api.h>
 
 #include <compact_enc_det/compact_enc_det.h>
 
