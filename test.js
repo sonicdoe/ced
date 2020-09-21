@@ -1,5 +1,5 @@
-import test from 'ava'
-import ced from '.'
+const test = require('ava')
+const ced = require('.')
 
 test('detects UTF-8', t => {
   const buf = Buffer.from('tést', 'utf8')
@@ -14,5 +14,5 @@ test('detects ASCII', t => {
 test('throws a TypeError if the argument is not a buffer', t => {
   t.throws(() => {
     ced('tést')
-  }, TypeError)
+  }, { instanceOf: TypeError })
 })
