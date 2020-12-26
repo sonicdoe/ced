@@ -11,6 +11,8 @@
 $ npm install ced
 ```
 
+In order to build ced, you may need to install some build tools first. Check [node-gyp’s readme](https://github.com/nodejs/node-gyp#installation) for more information.
+
 ## Usage
 
 ```js
