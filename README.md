@@ -3,8 +3,7 @@
 > Detect the character encoding using Google’s [compact_enc_det](https://github.com/google/compact_enc_det) library
 
 [![npm](https://img.shields.io/npm/v/ced.svg?logo=npm)](https://www.npmjs.com/package/ced)
-[![Travis CI](https://img.shields.io/travis/sonicdoe/ced.svg?logo=travis-ci&logoColor=white)](https://travis-ci.org/sonicdoe/ced)
-[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/sonicdoe/ced)
+[![CI](https://github.com/sonicdoe/ced/workflows/CI/badge.svg)](https://github.com/sonicdoe/ced/actions?query=workflow%3ACI)
 
 ## Installation
 
