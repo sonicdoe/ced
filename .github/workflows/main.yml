@@ -22,6 +22,4 @@ jobs:
         node-version:
           - 16
           - 14
-          - 12
-          - 10
       fail-fast: false
